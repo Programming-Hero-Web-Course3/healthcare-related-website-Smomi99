@@ -11,8 +11,8 @@ const Slider = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3 className="text-black">First slide label</h3>
-                    <p className="text-black">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h2 className="text-black">Feel Like Home With Best Care</h2>
+                    <p className="text-white">Qualified Doctors the day before or the day of the appointment.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -23,8 +23,8 @@ const Slider = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3 className="text-black">Second slide label</h3>
-                    <p className="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h2 className="text-black">A Network of Medical Professionals</h2>
+                    <p className="text-white">Welcome to Cosgrove Hospital</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -35,8 +35,8 @@ const Slider = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3 className="text-black">Third slide label</h3>
-                    <p className="text-black">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3 className="text-black">Comprehensive Treatment & Services</h3>
+                    <p className="text-white">Available 24 hours a day</p>
                     <Button className="bg-primary">Submit</Button>
                 </Carousel.Caption>
             </Carousel.Item>

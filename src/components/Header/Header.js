@@ -44,11 +44,11 @@ const Header = () => {
                             color: "#13c5dd"
                         }}> About Us</NavLink></Nav.Link>
 
-                        {user.email && <span>wellcome {user.displayName}</span>}
+                        {user.email && <span>Logged in by {user.email}</span>}
 
                         {
                             user.email ?
-                                <button onClick={logOut}>Log out</button>
+                                <button className="bg-warning border rounded" onClick={logOut}>Log out</button>
                                 :
                                 <Nav.Link onClick={() => setSmShow(true)}>Login</Nav.Link>}
 
@@ -60,6 +60,8 @@ const Header = () => {
                             onHide={() => setSmShow(false)}
                             aria-labelledby="example-modal-sizes-title-sm"
                         >
+                            <Modal.Header closeButton>
+                            </Modal.Header>
                             <Modal.Body><Login></Login></Modal.Body>
                         </Modal>
                         <Modal

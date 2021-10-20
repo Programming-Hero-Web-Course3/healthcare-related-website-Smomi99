@@ -16,6 +16,7 @@ import SingleService from './components/SingleService/SingleService';
 import Signup from './components/Singup/Signup';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import About from './components/About/About';
 function App() {
   return (
     <div>
@@ -32,8 +33,8 @@ function App() {
             <Route exact path="/login">
               <Login></Login>
             </Route>
-            <Route exact path="/signup">
-              <Signup></Signup>
+            <Route path="/about">
+              <About></About>
             </Route>
             <PrivateRoute path="/services">
               <Services></Services>
