@@ -1,8 +1,15 @@
-import React from 'react';
-import { Card, Button } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import Service from '../Service/Service';
 import Slider from 'react-slick';
+import NumberCounter from '../NumberCounter/NumberCounter';
 
 const Services = () => {
+    const [services, setServices] = useState([]);
+    useEffect(() => {
+        fetch('service.json')
+            .then(res => res.json())
+            .then(data => setServices(data))
+    });
     const settings = {
         dots: true,
         infinite: true,
@@ -12,65 +19,25 @@ const Services = () => {
         autoplaySpeed: 2000,
         pauseOnHover: true
     };
+
     return (
         <div className="mb-4 ">
-            <h2 id="/services" className="text-center"> Multiple Services </h2>
+            <h2 className="text-center"> Multiple Services {services.length}  </h2>
             <Slider {...settings}>
-                <div className="text-center d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/service-single-image-8-380x240.jpg" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="text-center d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/service-single-image-8-380x240.jpg" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="text-center d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/service-single-image-8-380x240.jpg" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className="text-center d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/service-single-image-8-380x240.jpg" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
-                </div>
+                {
+                    services.map(service => <Service
+                        key={service.id}
+                        service={service}
+
+                    >
 
 
+                    </Service>)
+                }
             </Slider>
+
+            <NumberCounter></NumberCounter>
+
         </div>
     );
 };

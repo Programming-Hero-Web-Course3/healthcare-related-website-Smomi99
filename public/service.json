@@ -1,0 +1,130 @@
+[
+    {
+        "id": "B002RL8IYK",
+        "deptname": "Cardiology",
+        "description": "The requested records directly to fuctional qualified doctors the day before or the day of the...",
+        "img": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/service-single-image-8-370x220.jpg",
+        "doctors": [
+            {
+                "key": "B002RLIYK",
+                "name": "Dr. rabble Davis",
+                "specialist": "Dermatologists",
+                "email": "dradv@gmail.com",
+                "img1": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/doctor3.png",
+                "phoneNumber": "+8801212123223"
+            },
+            {
+                "key": "B002RL8YK",
+                "name": "Dr. sabestian Davis",
+                "specialist": "Allergists",
+                "email": "drv@gmail.com",
+                "img2": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/doctor2.png",
+                "phoneNumber": "+8801212123223"
+            },
+            {
+                "key": "B002RL8IY",
+                "name": "Dr. Robert Davis",
+                "specialist": "Cardilogy",
+                "email": "drv@gmail.com",
+                "img3": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/doctor1.png",
+                "phoneNumber": "+8801212123223"
+            }
+        ]
+    },
+    {
+        "id": "B002RsadfLIYK",
+        "deptname": "Dental-Care",
+        "description": "The requested records directly to fuctional qualified doctors the day before or the day of the...",
+        "img": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/service-single-image-2-370x220.jpg",
+        "doctors": [
+            {
+                "key": "B002RLIYK",
+                "name": "Dr. rabble Davis",
+                "specialist": "Dermatologists",
+                "email": "dradv@gmail.com",
+                "img1": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/doctor3.png",
+                "phoneNumber": "+8801212123223"
+            },
+            {
+                "key": "B002RL8YK",
+                "name": "Dr. sabestian Davis",
+                "specialist": "Allergists",
+                "email": "drv@gmail.com",
+                "img2": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/doctor2.png",
+                "phoneNumber": "+8801212123223"
+            },
+            {
+                "key": "B002RL8IY",
+                "name": "Dr. Robert Davis",
+                "specialist": "Cardilogy",
+                "email": "drv@gmail.com",
+                "img3": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/doctor1.png",
+                "phoneNumber": "+8801212123223"
+            }
+        ]
+    },
+    {
+        "id": "B002RLfaIYK",
+        "deptname": "Drug-Store",
+        "description": "The requested records directly to fuctional qualified doctors the day before or the day of the...",
+        "img": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/service-single-image-6-370x220.jpg",
+        "doctors": [
+            {
+                "key": "B002RfsLIYK",
+                "name": "Dr. rabble Davis",
+                "specialist": "Dermatologists",
+                "email": "dradv@gmail.com",
+                "img1": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/doctor3.png",
+                "phoneNumber": "+8801212123223"
+            },
+            {
+                "key": "B002daRL8YK",
+                "name": "Dr. sabestian Davis",
+                "specialist": "Allergists",
+                "email": "drv@gmail.com",
+                "img2": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/doctor2.png",
+                "phoneNumber": "+8801212123223"
+            },
+            {
+                "key": "Baa002RL8IY",
+                "name": "Dr. Robert Davis",
+                "specialist": "Cardilogy",
+                "email": "drv@gmail.com",
+                "img3": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/doctor1.png",
+                "phoneNumber": "+8801212123223"
+            }
+        ]
+    },
+    {
+        "id": "B002RLsIYK",
+        "deptname": "Drug-Store",
+        "description": "The requested records directly to fuctional qualified doctors the day before or the day of the...",
+        "img": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/doctor3.png",
+        "doctors": [
+            {
+                "key": "B002sRLIYK",
+                "name": "Dr. rabble Davis",
+                "specialist": "Dermatologists",
+                "email": "dradv@gmail.com",
+                "img1": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/doctor3.png",
+                "phoneNumber": "+8801212123223"
+            },
+            {
+                "key": "B002sRL8YK",
+                "name": "Dr. sabestian Davis",
+                "specialist": "Allergists",
+                "email": "drv@gmail.com",
+                "img2": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/doctor2.png",
+                "phoneNumber": "+8801212123223"
+            },
+            {
+                "key": "B002sRL8IY",
+                "name": "Dr. Robert Davis",
+                "specialist": "Cardilogy",
+                "email": "drv@gmail.com",
+                "img3": "https://victorthemes.com/themes/cosgrove/wp-content/uploads/2017/10/doctor1.png",
+                "phoneNumber": "+8801212123223"
+            }
+        ]
+    }
+]

@@ -28,7 +28,7 @@ const Information = () => {
                     <div className="mx-4"><h3> <FcClock size={64} /> </h3></div>
                     <div className="p-2">
                         <h1>Visitor Information</h1>
-                        <table class="table text-white">
+                        <table className="table text-white">
 
                             <tbody>
                                 <tr>
@@ -61,7 +61,7 @@ const Information = () => {
 
 
             <Container className="mt-4 mb-4">
-                <h3 className="text-center">For emergency Cases Call to this number: <kbd><a className="text-decoration-none" href="tel:123456454"> +880123456454</a></kbd> </h3>
+                <h3 className="text-center">For emergency Cases Call to this number: <kbd> +880123456454</kbd> </h3>
 
                 <Row className="mt-4 d-flex align-items-center">
                     <Col sm>

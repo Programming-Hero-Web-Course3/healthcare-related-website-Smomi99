@@ -1,8 +1,21 @@
-
 import React from 'react';
+import { Button } from 'react-bootstrap';
+import { Link, useLocation, useHistory } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
+
 const Login = () => {
+    const { signInUsingGoogle } = useAuth();
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/shop';
+    const handleGoogleLogIn = () => {
+        signInUsingGoogle()
+            .then(result => {
+                history.push(redirect_uri)
+            })
+    }
     return (
-        <form className="container text-center">
+        <form className="container text-center mb-4 ">
 
             <h3>Log in</h3>
 
@@ -23,10 +36,12 @@ const Login = () => {
                 </div>
             </div>
 
-            <button type="submit" className="btn btn-dark btn-lg btn-block">Sign in</button>
-            <p className="forgot-password text-right">
-                Forgot <a href="#">password?</a>
-            </p>
+            <button type="submit" className="btn btn-dark btn-lg btn-block">login</button>
+            <br />
+            <Link to="/signup">Create a New Account </Link>
+            <div>-------------or--------------</div>
+            <Button onClick={handleGoogleLogIn} >Google sign in</Button>
+
         </form>
     );
 };
